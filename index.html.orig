@@ -9,9 +9,15 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title>DnB Girls</title>
 
-    <link href="/build/stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/build/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
-    <script src="/build/javascripts/all.js" type="text/javascript"></script>
+<<<<<<< HEAD:index.html
+    <link href="stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="javascripts/all.js" type="text/javascript"></script>
+=======
+    <link href="/stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/all.js" type="text/javascript"></script>
+>>>>>>> de126c9338bf965a7967fe00cdc31c14e9820bd9:build/index.html
   </head>
 
   <body class="index">
