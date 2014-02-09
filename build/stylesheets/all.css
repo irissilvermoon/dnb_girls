@@ -1,0 +1,104 @@
+/* line 14, /Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/susy-1.0.9/sass/susy/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 13, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+body, html {
+  height: 100%; }
+
+/* line 17, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+body {
+  background: #3D3440;
+  text-align: left;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+/* line 23, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+.container {
+  *zoom: 1;
+  max-width: 61em;
+  _width: 61em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  float: center; }
+  /* line 38, /Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 29, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+.header {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  height: 300px;
+  background: #000000;
+  background-image: url("../images/header.jpg");
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65); }
+  /* line 37, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+  .header h1 {
+    position: absolute;
+    text-align: left;
+    font-size: 4em;
+    font-weight: 400;
+    color: #DED1E3;
+    bottom: 5px;
+    left: 35px;
+    margin: 0;
+    text-shadow: 1px -1px 4px black; }
+
+/* line 50, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+.content {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  background: #1C2233;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
+  padding: 25px 0 0 0; }
+  /* line 56, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+  .content p {
+    padding: 10px 5em 0 35px;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.2em;
+    letter-spacing: 0.12em;
+    font-weight: 100;
+    color: #DED1E3; }
+  /* line 66, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+  .content a {
+    color: #DED1E3;
+    margin: 30px 0px 15px;
+    line-height: 1.5em;
+    font-weight: 100;
+    text-align: left;
+    font-size: 1em;
+    letter-spacing: 0.12em; }
+  /* line 76, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+  .content li {
+    list-style: none;
+    text-align: left; }
+
+/* line 82, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+.profile {
+  float: left;
+  margin: 0 0 40px 20px;
+  padding: 18px; }
+  /* line 87, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+  .profile p {
+    font-size: 0.75em;
+    font-weight: 100;
+    color: #DED1E3;
+    line-height: 1.2em;
+    padding: 5px 0 0 3px;
+    margin: 0; }
+  /* line 96, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+  .profile img {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65); }
