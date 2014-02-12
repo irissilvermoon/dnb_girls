@@ -45,16 +45,18 @@ body {
   /* line 37, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
   .header h1 {
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 100%;
     text-align: left;
     font-size: 4em;
     font-weight: 400;
     color: #DED1E3;
-    bottom: 5px;
-    left: 35px;
+    bottom: 0;
     margin: 0;
+    padding-left: 35px;
     text-shadow: 1px -1px 4px black; }
 
-/* line 50, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+/* line 52, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
 .content {
   width: 100%;
   float: left;
@@ -63,7 +65,7 @@ body {
   background: #1C2233;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
   padding: 25px 0 0 0; }
-  /* line 56, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+  /* line 58, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
   .content p {
     padding: 10px 5em 0 35px;
     text-align: left;
@@ -72,7 +74,7 @@ body {
     letter-spacing: 0.12em;
     font-weight: 100;
     color: #DED1E3; }
-  /* line 66, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+  /* line 68, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
   .content a {
     color: #DED1E3;
     margin: 30px 0px 15px;
@@ -81,17 +83,17 @@ body {
     text-align: left;
     font-size: 1em;
     letter-spacing: 0.12em; }
-  /* line 76, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+  /* line 78, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
   .content li {
     list-style: none;
     text-align: left; }
 
-/* line 82, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+/* line 84, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
 .profile {
   float: left;
   margin: 0 0 40px 20px;
   padding: 18px; }
-  /* line 87, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+  /* line 89, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
   .profile p {
     font-size: 0.75em;
     font-weight: 100;
@@ -99,6 +101,6 @@ body {
     line-height: 1.2em;
     padding: 5px 0 0 3px;
     margin: 0; }
-  /* line 96, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
+  /* line 98, /Users/karen/Desktop/Programs/dnb_girls/source/stylesheets/all.css.scss */
   .profile img {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65); }
